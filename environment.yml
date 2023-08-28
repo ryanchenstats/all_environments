@@ -393,7 +393,7 @@ dependencies:
     - typing-extensions==4.7.1
     - xxhash==3.3.0
     - yarl==1.9.2
-    - "--editable=git+https://github.com/ryanchenstats/stable-baselines3"
-    - "--editable=git+https://github.com/ryanchenstats/stable-baselines3-contrib"
-    - "--editable=git+https://github.com/ryanchenstats/Gymnasium-Robotics"
+    - "--editable=git+https://github.com/ryanchenstats/stable-baselines3@egg=stable-baselines3"
+    - "--editable=git+https://github.com/ryanchenstats/stable-baselines3-contrib@egg=sb3-contrib"
+    - "--editable=git+https://github.com/ryanchenstats/Gymnasium-Robotics@egg=gymnasium-robotics"
 prefix: /home/rce5022/.conda/envs/herenv
